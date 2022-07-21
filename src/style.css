@@ -381,9 +381,9 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
-p {
+text {
     font-family: 'Poppins' sans-serif;
-    color: white;
+    color: whitesmoke;
     position: fixed;
     bottom: 0;
     right: 0;
