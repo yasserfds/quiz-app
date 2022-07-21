@@ -381,6 +381,18 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+.wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+    transition: oppacity .25s, visibility 1s;
+}
+.fade {
+    opacity: 0;
+    visibility: hidden;
+}
 text {
     font-family: 'Poppins' sans-serif;
     color: whitesmoke;
